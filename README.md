@@ -156,7 +156,7 @@ print(json.dumps(response, indent=2))
 ```
 
 **Solution 3: Use the deployed version**
-Your server is live at: `https://vercel-mcp-python-26tfccxow-amit-puris-projects.vercel.app`
+Your server will be available at your Vercel domain after deployment.
 
 You can test it by:
 1. Opening the URL in your browser

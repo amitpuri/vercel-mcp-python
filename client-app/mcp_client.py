@@ -208,7 +208,7 @@ def main():
     console = Console()
     
     # Load server URL from environment variables
-    server_url = os.getenv('MCP_SERVER_URL', 'https://vercel-mcp-python-26tfccxow-amit-puris-projects.vercel.app')
+    server_url = os.getenv('MCP_SERVER_URL', 'https://your-deployed-server.vercel.app')
     timeout = int(os.getenv('MCP_TIMEOUT', '10'))
     debug = os.getenv('MCP_DEBUG', 'false').lower() == 'true'
     

@@ -35,7 +35,7 @@ The client uses environment variables for configuration. Copy the example file a
 cp .env.example .env
 
 # Edit the .env file to customize settings
-# MCP_SERVER_URL=https://your-server-url.vercel.app
+# MCP_SERVER_URL=https://your-deployed-server.vercel.app
 # MCP_TIMEOUT=10
 # MCP_DEBUG=false
 ```
@@ -98,7 +98,7 @@ Your MCP server provides these tools:
 🤖 MCP Client
 ┌─────────────────────────────────────────────────────────────┐
 │ MCP Client for Vercel MCP Python Server                    │
-│ Connecting to: https://vercel-mcp-python-26tfccxow-amit-... │
+│ Connecting to: https://your-deployed-server.vercel.app │
 └─────────────────────────────────────────────────────────────┘
 
 ✅ Server Status: running
@@ -126,7 +126,7 @@ The client can be configured using environment variables in a `.env` file:
 
 | Variable | Description | Default |
 |----------|-------------|---------|
-| `MCP_SERVER_URL` | URL of the MCP server | `https://vercel-mcp-python-26tfccxow-amit-puris-projects.vercel.app` |
+| `MCP_SERVER_URL` | URL of the MCP server | `https://your-deployed-server.vercel.app` |
 | `MCP_TIMEOUT` | Request timeout in seconds | `10` |
 | `MCP_DEBUG` | Enable debug mode | `false` |
 
@@ -140,6 +140,6 @@ The client can be configured using environment variables in a `.env` file:
 ## Server URL
 
 The client is configured to connect to:
-`https://vercel-mcp-python-26tfccxow-amit-puris-projects.vercel.app`
+`https://your-deployed-server.vercel.app`
 
 To change the server URL, edit the `server_url` variable in `mcp_client.py`.
