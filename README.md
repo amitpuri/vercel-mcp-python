@@ -1,3 +1,5 @@
+![AI Generated](https://img.shields.io/badge/AI-Generated-blueviolet?style=for-the-badge&logo=openai&logoColor=white)
+
 # Vercel MCP Python Server
 
 A Model Context Protocol (MCP) server built with Python and FastMCP, designed to run on Vercel's serverless platform.
@@ -218,6 +220,12 @@ The client provides:
 - 🎨 Beautiful console interface
 
 See `client-app/README.md` for detailed usage instructions.
+
+## Additional Resources
+
+- [Vercel MCP Documentation](https://vercel.com/docs/mcp) - Official Vercel documentation for Model Context Protocol
+- [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) - Explore available MCP servers
+- [AI SDK Documentation](https://sdk.vercel.ai/) - Use the AI SDK to initialize MCP clients
 
 ## License
 
