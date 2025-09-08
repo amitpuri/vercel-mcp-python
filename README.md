@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/amitpuri-vercel-mcp-python-badge.png)](https://mseep.ai/app/amitpuri-vercel-mcp-python)
+
 ![AI Generated](https://img.shields.io/badge/AI-Generated-blueviolet?style=for-the-badge&logo=openai&logoColor=white)
 
 # Vercel MCP Python Server
